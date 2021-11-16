@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "422d911a65427982fb9ba08b508fc8ed",
+    "content-hash": "edf50b1f2f3d2ccf834ba7604935f08f",
     "packages": [
         {
             "name": "moonwalkingbits/wordpress-enum",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moonwalkingbits/wordpress-enum.git",
-                "reference": "644bee6bdef8747f078d3311b5d76cd66b6e8a0a"
+                "reference": "e1099c8db4188d03d9e0505be0040912fcf5872b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moonwalkingbits/wordpress-enum/zipball/644bee6bdef8747f078d3311b5d76cd66b6e8a0a",
-                "reference": "644bee6bdef8747f078d3311b5d76cd66b6e8a0a",
+                "url": "https://api.github.com/repos/moonwalkingbits/wordpress-enum/zipball/e1099c8db4188d03d9e0505be0040912fcf5872b",
+                "reference": "e1099c8db4188d03d9e0505be0040912fcf5872b",
                 "shasum": ""
             },
             "require": {
@@ -50,9 +50,9 @@
             "description": "Enums for PHP.",
             "support": {
                 "issues": "https://github.com/moonwalkingbits/wordpress-enum/issues",
-                "source": "https://github.com/moonwalkingbits/wordpress-enum/tree/0.1.0"
+                "source": "https://github.com/moonwalkingbits/wordpress-enum/tree/0.1.1"
             },
-            "time": "2021-11-16T09:33:05+00:00"
+            "time": "2021-11-16T14:46:43+00:00"
         }
     ],
     "packages-dev": [

@@ -1,5 +1,5 @@
 {
-	"name": "moonwalkingbits/configuration",
+	"name": "moonwalkingbits/wordpress-configuration",
 	"description": "Generic configuration management.",
 	"type": "library",
 	"license": "GPL-2.0-only",
