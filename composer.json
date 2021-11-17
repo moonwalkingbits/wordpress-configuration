@@ -12,7 +12,7 @@
 	"minimum-stability": "stable",
 	"suggest": {
 		"moonwalkingbits/wordpress-configuration-json-configuration-source": "A JSON file configuration source.",
-		"moonwalkingbits/wordpress-configuration-json-configuration-source": "A WordPress options configuration source."
+		"moonwalkingbits/wordpress-configuration-options-configuration-source": "A WordPress options configuration source."
 	},
 	"scripts": {
 		"test": "phpunit",
