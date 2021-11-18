@@ -22,6 +22,7 @@ interface Configuration_Source_Interface {
 	 *
 	 * @since 0.1.0
 	 * @return array The configuration source content.
+	 * @throws \RuntimeException If unable to produce the content.
 	 */
 	public function fetch(): array;
 }
