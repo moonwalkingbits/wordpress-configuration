@@ -289,8 +289,7 @@ class Configuration_Test extends TestCase {
 		$configuration = new Configuration( array( 'indexed' => array( 1, 2, 3 ) ) );
 		$another_configuration = new Configuration( array( 'indexed' => array( 3, 4, 5 ) ) );
 
-		$configuration->merge( $another_configuration, null, Merge_Strategy::from( Merge_Strategy::MERGE_INDEXED ) );
-
+		$configuration->merge( $another_configuration, null, Merge_Strategy::MERGE_INDEXED ); 
 		$this->assertEquals( array( 'indexed' => array( 1, 2, 3, 4, 5 ) ), $configuration->all() );
 	}
 }
