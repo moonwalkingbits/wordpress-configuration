@@ -17,7 +17,7 @@ use Moonwalking_Bits\Enum\Abstract_Enum;
  *
  * @since 0.1.0
  */
-class Merge_Strategy extends Abstract_Enum {
+final class Merge_Strategy extends Abstract_Enum {
 
 	/**
 	 * Replaces conflicting indexed arrays.
