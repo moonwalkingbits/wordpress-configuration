@@ -141,9 +141,9 @@ class Configuration implements Configuration_Interface {
 	/**
 	 * Merges in the given configuration object at the given key.
 	 *
-	 * @param \Moonwalking_Bits\Configuration\Configuration_Interface        $configuration Configuration object to merge.
-	 * @param string|null                                                    $key Configuration key to merge the object at.
-	 * @param \Moonwalking_Bits\Configuration\Merge_Strategy|string|null     $strategy Strategy to use when merging.
+	 * @param \Moonwalking_Bits\Configuration\Configuration_Interface    $configuration Configuration object to merge.
+	 * @param string|null                                                $key Configuration key to merge the object at.
+	 * @param \Moonwalking_Bits\Configuration\Merge_Strategy|string|null $strategy Strategy to use when merging.
 	 */
 	public function merge(
 		Configuration_Interface $configuration,
